@@ -52,12 +52,7 @@ software development principles and proficient in multiple programming
 languages, I am eager to take on new challenges and contribute to the success of
 a progressive company.
         </motion.p>
-        <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-        >
-          Learn More!
-        </motion.a>
+        
       </div>
 
       <motion.div
