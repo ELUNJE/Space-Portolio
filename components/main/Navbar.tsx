@@ -19,7 +19,7 @@ const Navbar = () => {
           />
 
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-            WebChain Dev
+            Elly Carlos
           </span>
         </a>
 
@@ -31,23 +31,10 @@ const Navbar = () => {
             <a href="#skills" className="cursor-pointer">
               Skills
             </a>
-            <a href="#projects" className="cursor-pointer">
-              Projects
-            </a>
-          </div>
+            </div>
         </div>
 
-        <div className="flex flex-row gap-5">
-          {Socials.map((social) => (
-            <Image
-              src={social.src}
-              alt={social.name}
-              key={social.name}
-              width={24}
-              height={24}
-            />
-          ))}
-        </div>
+        
       </div>
     </div>
   );
